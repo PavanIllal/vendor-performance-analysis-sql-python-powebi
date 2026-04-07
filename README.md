@@ -142,5 +142,5 @@ vendor-performance-analysis/
 **Pavan**  
 Data Analyst  
 📧 Email: psillal4321@gmail.com  
-🔗 [LinkedIn](www.linkedin.com/in/pavan-479173238)  
+🔗 [LinkedIn](https://www.linkedin.com/in/pavan-479173238) 
 
