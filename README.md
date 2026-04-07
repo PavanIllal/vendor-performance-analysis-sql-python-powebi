@@ -60,9 +60,7 @@ Effective inventory and sales management are critical in the retail sector. This
 ```
 vendor-performance-analysis/
 │
-├── README.md
-├── .gitignore
-├── requirements.txt
+├── README.md 
 ├── Vendor Performance Report.pdf
 │
 ├── notebooks/                  # Jupyter notebooks
