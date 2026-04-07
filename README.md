@@ -136,12 +136,11 @@ vendor-performance-analysis/
 <li>Improve marketing for underperforming vendors</li>
 </ul>
 
-<hr>
+---
+<h2><a class="anchor" id="author--contact"></a>Author & Contact</h2>
 
-<h2 id="contact">Author & Contact</h2>
-<p>
-<b>Pavan</b><br>
-Data Analyst<br>
-📧 Email: psillal4321@gmail.com
-🔗 <a href="https://www.linkedin.com/in/pavan-479173238">LinkedIn Profile</a>
-</p>
+**Pavan**  
+Data Analyst  
+📧 Email: psillal4321@gmail.com  
+🔗 [LinkedIn](www.linkedin.com/in/pavan-479173238)  
+
