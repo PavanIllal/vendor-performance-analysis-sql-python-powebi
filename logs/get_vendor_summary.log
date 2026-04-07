@@ -1,0 +1,107 @@
+2026-03-21 17:47:22,824-INFO-Creating Vendor Summary Table....
+2026-03-21 17:48:48,193-INFO-   VENDORNUMBER                   VENDORNAME  BRAND              DESCRIPTION  \
+0          1128  BROWN-FORMAN CORP             1233  Jack Daniels No 7 Black   
+1          4425        MARTIGNETTI COMPANIES   3405    Tito's Handmade Vodka   
+2         17035  PERNOD RICARD USA             8068         Absolut 80 Proof   
+3          3960  DIAGEO NORTH AMERICA INC      4261   Capt Morgan Spiced Rum   
+4          3960  DIAGEO NORTH AMERICA INC      3545          Ketel One Vodka   
+
+   PURCHASEPRICE  ActualPrice VOLUME  TotalPurchaseQuantity  \
+0          26.27        36.99   1750                 145080   
+1          23.19        28.99   1750                 164038   
+2          18.24        24.99   1750                 187407   
+3          16.17        22.99   1750                 201682   
+4          21.89        29.99   1750                 138109   
+
+   TotalPurchaseDollars  TotalSalesQuantity  TotalSalesDollars  \
+0            3811251.60            142049.0         5101919.51   
+1            3804041.22            160247.0         4819073.49   
+2            3418303.68            187140.0         4538120.60   
+3            3261197.94            200412.0         4475972.88   
+4            3023206.01            135838.0         4223107.62   
+
+   TotalSalesPrice  TotalExciseTax  FreightCost  
+0        672819.31       260999.20     68601.68  
+1        561512.37       294438.66    144929.24  
+2        461140.15       343854.07    123780.22  
+3        420050.01       368242.80    257032.07  
+4        545778.28       249587.83    257032.07  
+2026-03-21 17:48:48,197-INFO-Cleaning Data....
+2026-03-21 17:48:48,205-INFO-   VENDORNUMBER                VENDORNAME  BRAND              DESCRIPTION  \
+0          1128         BROWN-FORMAN CORP   1233  Jack Daniels No 7 Black   
+1          4425     MARTIGNETTI COMPANIES   3405    Tito's Handmade Vodka   
+2         17035         PERNOD RICARD USA   8068         Absolut 80 Proof   
+3          3960  DIAGEO NORTH AMERICA INC   4261   Capt Morgan Spiced Rum   
+4          3960  DIAGEO NORTH AMERICA INC   3545          Ketel One Vodka   
+
+   PURCHASEPRICE  ActualPrice  VOLUME  TotalPurchaseQuantity  \
+0          26.27        36.99  1750.0                 145080   
+1          23.19        28.99  1750.0                 164038   
+2          18.24        24.99  1750.0                 187407   
+3          16.17        22.99  1750.0                 201682   
+4          21.89        29.99  1750.0                 138109   
+
+   TotalPurchaseDollars  TotalSalesQuantity  TotalSalesDollars  \
+0            3811251.60            142049.0         5101919.51   
+1            3804041.22            160247.0         4819073.49   
+2            3418303.68            187140.0         4538120.60   
+3            3261197.94            200412.0         4475972.88   
+4            3023206.01            135838.0         4223107.62   
+
+   TotalSalesPrice  TotalExciseTax  FreightCost  GrossProfit  ProfitMargin  \
+0        672819.31       260999.20     68601.68   1290667.91     25.297693   
+1        561512.37       294438.66    144929.24   1015032.27     21.062810   
+2        461140.15       343854.07    123780.22   1119816.92     24.675786   
+3        420050.01       368242.80    257032.07   1214774.94     27.139908   
+4        545778.28       249587.83    257032.07   1199901.61     28.412764   
+
+   StockTurnover  SalesToPurchaseRatio  
+0       0.979108              1.338647  
+1       0.976890              1.266830  
+2       0.998575              1.327594  
+3       0.993703              1.372493  
+4       0.983556              1.396897  
+2026-03-21 17:48:48,209-INFO-Ingesting data into database....
+2026-03-21 17:48:48,447-INFO-Completed
+2026-03-21 18:41:10,666-ERROR-No such comm target registered: jupyter.widget.control
+2026-03-21 18:41:10,669-WARNING-No such comm: 933197e1-1ae6-43dd-a6df-986b9047409c
+2026-03-21 18:41:10,669-DEBUG-Current comms: []
+2026-03-21 18:41:22,940-INFO-Starting Vendor Summary Creation
+2026-03-21 18:42:54,301-INFO-Vendor summary created
+2026-03-21 18:42:54,348-INFO-Data cleaned
+2026-03-21 18:42:54,631-INFO-Table stored in database
+2026-03-21 18:42:54,631-INFO-Total Time Taken: 1.53 minutes
+2026-03-21 18:42:54,631-INFO-Process Completed
+2026-03-21 18:42:54,655-INFO-Starting Vendor Summary Creation
+2026-03-21 18:44:20,375-INFO-Vendor summary created
+2026-03-21 18:44:20,387-INFO-Data cleaned
+2026-03-21 18:44:20,591-INFO-Table stored in database
+2026-03-21 18:44:20,591-INFO-Total Time Taken: 1.43 minutes
+2026-03-21 18:44:20,591-INFO-Process Completed
+2026-03-23 05:58:15,257-INFO-Starting Vendor Summary Creation
+2026-03-23 06:00:12,681-INFO-Vendor summary created
+2026-03-23 06:00:12,700-INFO-Data cleaned
+2026-03-23 06:00:13,189-INFO-Table stored in database
+2026-03-23 06:00:13,189-INFO-Total Time Taken: 1.97 minutes
+2026-03-23 06:00:13,189-INFO-Process Completed
+2026-03-23 13:48:50,616-INFO-Starting Vendor Summary Creation
+2026-03-23 13:50:24,643-INFO-Vendor summary created
+2026-03-23 13:50:24,654-INFO-Data cleaned
+2026-03-23 13:50:24,898-INFO-Table stored in database
+2026-03-23 13:50:24,898-INFO-Total Time Taken: 1.57 minutes
+2026-03-23 13:50:24,898-INFO-Process Completed
+2026-03-23 14:03:59,158-ERROR-No such comm target registered: jupyter.widget.control
+2026-03-23 14:03:59,160-WARNING-No such comm: e45a1697-c367-4001-a901-4e9b67eb0572
+2026-03-23 14:03:59,160-DEBUG-Current comms: []
+2026-03-23 14:20:50,251-ERROR-No such comm target registered: jupyter.widget.control
+2026-03-23 14:20:50,252-WARNING-No such comm: 5f4fe36f-621e-4d53-ba81-b150f6cab6ed
+2026-03-23 14:20:50,252-DEBUG-Current comms: []
+2026-03-23 14:21:45,334-ERROR-No such comm target registered: jupyter.widget.control
+2026-03-23 14:21:45,336-WARNING-No such comm: 3de73f5a-ea9b-41ff-ba6b-88374caf52c1
+2026-03-23 14:21:45,336-DEBUG-Current comms: []
+2026-03-23 17:11:18,087-INFO-Starting Vendor Summary Creation
+2026-03-23 17:13:01,243-INFO-Vendor summary created
+2026-03-23 17:13:01,251-INFO-Data cleaned
+2026-03-23 17:13:01,474-INFO-Table stored in database
+2026-03-23 17:13:01,475-INFO-Total Time Taken: 1.72 minutes
+2026-03-23 17:13:01,475-INFO-Process Completed

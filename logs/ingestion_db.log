@@ -1,0 +1,19 @@
+2026-03-23 17:02:55,772-INFO-(206529, 9)
+2026-03-23 17:02:55,772-INFO-Ingesting begin_inventory.csv in db
+2026-03-23 17:02:55,772-INFO-------------Ingestion Complete-------------
+2026-03-23 17:02:58,427-INFO-(224489, 9)
+2026-03-23 17:02:58,427-INFO-Ingesting end_inventory.csv in db
+2026-03-23 17:02:58,427-INFO-------------Ingestion Complete-------------
+2026-03-23 17:03:42,992-INFO-(2372474, 16)
+2026-03-23 17:03:42,992-INFO-Ingesting purchases.csv in db
+2026-03-23 17:03:42,992-INFO-------------Ingestion Complete-------------
+2026-03-23 17:03:43,231-INFO-(12261, 9)
+2026-03-23 17:03:43,231-INFO-Ingesting purchase_prices.csv in db
+2026-03-23 17:03:43,231-INFO-------------Ingestion Complete-------------
+2026-03-23 17:07:39,957-INFO-(12825363, 14)
+2026-03-23 17:07:39,957-INFO-Ingesting sales.csv in db
+2026-03-23 17:07:39,957-INFO-------------Ingestion Complete-------------
+2026-03-23 17:07:40,140-INFO-(5543, 10)
+2026-03-23 17:07:40,140-INFO-Ingesting vendor_invoice.csv in db
+2026-03-23 17:07:40,140-INFO-------------Ingestion Complete-------------
+2026-03-23 17:07:40,140-INFO-Total Time Taken: 4.79 minutes
