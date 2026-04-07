@@ -10,12 +10,12 @@
 <li><a href="#dataset">Dataset</a></li>
 <li><a href="#tools">Tools & Technologies</a></li>
 <li><a href="#project-structure">Project Structure</a></li>
-<li><a href="#data-cleaning">Data Cleaning & Preparation</a></li>
-<li><a href="#eda">Exploratory Data Analysis (EDA)</a></li>
-<li><a href="#findings">Research Questions & Key Findings</a></li>
+<li><a href="#data-cleaning--preparation">Data Cleaning & Preparation</a></li>
+<li><a href="#exploratory-data-analysis-eda">Exploratory Data Analysis (EDA)</a></li>
+<li><a href="#research-questions--key-findings">Research Questions & Key Findings</a></li>
 <li><a href="#dashboard">Dashboard</a></li>
 <li><a href="#recommendations">Final Recommendations</a></li>
-<li><a href="#contact">Author & Contact</a></li>
+<li><a href="#author--contact">Author & Contact</a></li>
 </ul>
 
 <hr>
