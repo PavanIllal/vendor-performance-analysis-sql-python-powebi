@@ -26,18 +26,17 @@ This project evaluates vendor performance and retail inventory dynamics to gener
 A complete data pipeline was built using SQL for ETL, Python for analysis and hypothesis testing, and Power BI for visualization.
 </p>
 
-<hr>
+---
+<h2><a class="anchor" id="business-problem"></a>Business Problem</h2>
 
-<h2 id="business-problem">Business Problem</h2>
-<ul>
-<li>Identify underperforming brands needing pricing or promotional adjustments</li>
-<li>Determine vendor contributions to sales and profits</li>
-<li>Analyze the cost-benefit of bulk purchasing</li>
-<li>Investigate inventory turnover inefficiencies</li>
-<li>Statistically validate differences in vendor profitability</li>
-</ul>
+Effective inventory and sales management are critical in the retail sector. This project aims to:
+- Identify underperforming brands needing pricing or promotional adjustments
+- Determine vendor contributions to sales and profits
+- Analyze the cost-benefit of bulk purchasing
+- Investigate inventory turnover inefficiencies
+- Statistically validate differences in vendor profitability
 
-<hr>
+---
 
 <h2 id="dataset">Dataset</h2>
 <ul>
@@ -56,50 +55,71 @@ A complete data pipeline was built using SQL for ETL, Python for analysis and hy
 </ul>
 
 <hr>
+<h2><a class="anchor" id="project-structure"></a>Project Structure</h2>
 
-<h2 id="project-structure">Project Structure</h2>
-<pre>
+```
 vendor-performance-analysis/
 │
 ├── README.md
+├── .gitignore
+├── requirements.txt
 ├── Vendor Performance Report.pdf
 │
-├── notebooks/
-├── scripts/
-├── dashboard/
-</pre>
+├── notebooks/                  # Jupyter notebooks
+│   ├── exploratory_data_analysis.ipynb
+│   ├── vendor_performance_analysis.ipynb
+│
+├── scripts/                    # Python scripts for ingestion and processing
+│   ├── ingestion_db.py
+│   └── get_vendor_summary.py
+│
+├── dashboard/                  # Power BI dashboard file
+│   └── vendor_performance_dashboard.pbix
+```
 
-<hr>
+---
 
-<h2 id="data-cleaning">Data Cleaning & Preparation</h2>
-<ul>
-<li>Removed transactions with negative or zero profit and sales</li>
-<li>Created vendor-level summary tables</li>
-<li>Handled missing values and outliers</li>
-</ul>
+<h2><a class="anchor" id="data-cleaning--preparation"></a>Data Cleaning & Preparation</h2>
 
-<hr>
+- Removed transactions with:
+  - Gross Profit ≤ 0
+  - Profit Margin ≤ 0
+  - Sales Quantity = 0
+- Created summary tables with vendor-level metrics
+- Converted data types, handled outliers, merged lookup tables
 
-<h2 id="eda">Exploratory Data Analysis (EDA)</h2>
-<ul>
-<li>Detected loss-making transactions and zero margins</li>
-<li>Identified outliers in freight and pricing</li>
-<li>Strong correlation between purchase and sales quantity</li>
-<li>Weak relationship between pricing and profitability</li>
-</ul>
+---
 
-<hr>
+<h2><a class="anchor" id="exploratory-data-analysis-eda"></a>Exploratory Data Analysis (EDA)</h2>
 
-<h2 id="findings">Research Questions & Key Findings</h2>
-<ul>
-<li>198 brands identified for promotions (low sales, high margins)</li>
-<li>Top 10 vendors contribute ~65.7% of purchases</li>
-<li>Bulk purchasing reduces cost significantly (~72%)</li>
-<li>$2.71M unsold inventory identified</li>
-<li>Statistically significant difference in vendor profitability</li>
-</ul>
+**Negative or Zero Values Detected:**
+- Gross Profit: Min -52,002.78 (loss-making sales)
+- Profit Margin: Min -∞ (sales at zero or below cost)
+- Unsold Inventory: Indicating slow-moving stock
 
-<hr>
+**Outliers Identified:**
+- High Freight Costs (up to 257K)
+- Large Purchase/Actual Prices
+
+**Correlation Analysis:**
+- Weak between Purchase Price & Profit
+- Strong between Purchase Qty & Sales Qty (0.999)
+- Negative between Profit Margin & Sales Price (-0.179)
+
+---
+
+<h2><a class="anchor" id="research-questions--key-findings"></a>Research Questions & Key Findings</h2>
+
+1. **Brands for Promotions**: 198 brands with low sales but high profit margins
+2. **Top Vendors**: Top 10 vendors = 65.69% of purchases → risk of over-reliance
+3. **Bulk Purchasing Impact**: 72% cost savings per unit in large orders
+4. **Inventory Turnover**: $2.71M worth of unsold inventory
+5. **Vendor Profitability**:
+   - High Vendors: Mean Margin = 31.17%
+   - Low Vendors: Mean Margin = 41.55%
+6. **Hypothesis Testing**: Statistically significant difference in profit margins → distinct vendor strategies
+
+---
 
 <h2 id="dashboard">Dashboard</h2>
 <p>Power BI dashboard showing vendor performance, inventory turnover, and profitability insights.</p>
@@ -122,6 +142,6 @@ vendor-performance-analysis/
 <p>
 <b>Pavan</b><br>
 Data Analyst<br>
-📧 Email: psillal4321@gmail.com<br>
+📧 Email: psillal4321@gmail.com
 🔗 <a href="https://www.linkedin.com/in/pavan-479173238">LinkedIn Profile</a>
 </p>
