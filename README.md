@@ -37,6 +37,7 @@ Effective inventory and sales management are critical in the retail sector. This
 - Statistically validate differences in vendor profitability
 
 ---
+<hr>
 
 <h2 id="dataset">Dataset</h2>
 <ul>
@@ -76,6 +77,7 @@ vendor-performance-analysis/
 ```
 
 ---
+<hr>
 
 <h2><a class="anchor" id="data-cleaning--preparation"></a>Data Cleaning & Preparation</h2>
 
@@ -104,7 +106,7 @@ vendor-performance-analysis/
 - Strong between Purchase Qty & Sales Qty (0.999)
 - Negative between Profit Margin & Sales Price (-0.179)
 
----
+<hr>
 
 <h2><a class="anchor" id="research-questions--key-findings"></a>Research Questions & Key Findings</h2>
 
@@ -134,7 +136,7 @@ vendor-performance-analysis/
 <li>Improve marketing for underperforming vendors</li>
 </ul>
 
----
+<hr>
 <h2><a class="anchor" id="author--contact"></a>Author & Contact</h2>
 
 **Pavan**  
