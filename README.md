@@ -3,6 +3,23 @@
 
 <hr>
 
+<h2>📌 Table of Contents</h2>
+<ul>
+<li><a href="#overview">Overview</a></li>
+<li><a href="#business-problem">Business Problem</a></li>
+<li><a href="#dataset">Dataset</a></li>
+<li><a href="#tools">Tools & Technologies</a></li>
+<li><a href="#project-structure">Project Structure</a></li>
+<li><a href="#data-cleaning">Data Cleaning & Preparation</a></li>
+<li><a href="#eda">Exploratory Data Analysis (EDA)</a></li>
+<li><a href="#findings">Research Questions & Key Findings</a></li>
+<li><a href="#dashboard">Dashboard</a></li>
+<li><a href="#recommendations">Final Recommendations</a></li>
+<li><a href="#contact">Author & Contact</a></li>
+</ul>
+
+<hr>
+
 <h2 id="overview">Overview</h2>
 <p>
 This project evaluates vendor performance and retail inventory dynamics to generate actionable insights for purchasing, pricing, and inventory optimization.
@@ -73,12 +90,13 @@ vendor-performance-analysis/
 
 <hr>
 
-<h2 id="findings">Key Findings</h2>
+<h2 id="findings">Research Questions & Key Findings</h2>
 <ul>
-<li>Top 10 vendors contribute ~65.7% of total purchases</li>
+<li>198 brands identified for promotions (low sales, high margins)</li>
+<li>Top 10 vendors contribute ~65.7% of purchases</li>
 <li>Bulk purchasing reduces cost significantly (~72%)</li>
 <li>$2.71M unsold inventory identified</li>
-<li>Statistically significant differences in vendor profitability</li>
+<li>Statistically significant difference in vendor profitability</li>
 </ul>
 
 <hr>
